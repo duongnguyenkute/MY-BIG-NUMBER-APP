@@ -4,10 +4,9 @@ interface ResultProps {
   
   export default function ResultComponent({ result }: ResultProps) {
     return (
-      <div className="mt-4 p-2 bg-white shadow rounded">
-        <h2 className="text-lg font-bold text-green-600">Result:</h2>
-        <p className="text-xl">{result}</p>
+      <div className="mt-6 p-4 bg-gray-50 shadow-md rounded-lg border border-gray-200">
+        <h2 className="text-xl font-semibold text-green-700 mb-2">Result:</h2>
+        <p className="text-2xl font-bold text-gray-800">{result}</p>
       </div>
     );
   }
-  

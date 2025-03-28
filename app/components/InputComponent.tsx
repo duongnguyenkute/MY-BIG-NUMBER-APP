@@ -10,7 +10,7 @@ interface InputProps {
         <label className="block text-gray-700">{label}</label>
         <input
           type="text"
-          value={value || ""}  // Đảm bảo không bị undefined
+          value={value || ""}  
           onChange={onChange}
           className="border p-2 rounded w-full"
           placeholder="Enter a number"
