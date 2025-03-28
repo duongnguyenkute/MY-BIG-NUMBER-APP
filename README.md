@@ -45,11 +45,7 @@ npm run dev
 ```
 Sau đó, mở trình duyệt và truy cập **http://localhost:3000** để sử dụng ứng dụng.
 
-## ✅ Unit Testing 
-Chạy test bằng lệnh sau:
-```sh
-npm test
-```
+
 
 ## 📢 Cách sử dụng ứng dụng
 1. Nhập hai số lớn vào hai ô input.
